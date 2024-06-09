@@ -291,6 +291,11 @@ main section {
   color: #173b6c;
 }
 
+.phone {
+  color: #333 !important;
+  display: block !important;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -457,6 +462,7 @@ main section {
   border-radius: 5px;
   opacity: 0;
   transition: opacity 0.5s;
+  display: flex;
 }
 
 #popupMessage.show {
@@ -653,6 +659,9 @@ textarea {
 
   #popupMessage {
     bottom: 15rem;
-    right: 0;
+    max-width: 30rem;
+    font-size: 4vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
