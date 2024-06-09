@@ -650,4 +650,9 @@ textarea {
     font-size: 3vw;
     font-weight: 900;
   }
+
+  #popupMessage {
+    bottom: 15rem;
+    right: 0;
+  }
 }
