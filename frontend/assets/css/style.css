@@ -665,7 +665,7 @@ textarea {
     transform: translateX(-50%);
   }
 
-  .form-contact-info > div {
-    flex: 1 1 100%;
+  .form-contact-info {
+    flex-direction: column;
   }
 }
