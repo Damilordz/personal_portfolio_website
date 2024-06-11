@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Middleware for parsing ap
 app.use(bodyParser.json()); // Middleware for parsing application/json
 app.use(
   cors({
-    origin: "https://personal-portfolio-website-frontend.vercel.app", // Allow requests from this origin
+    origin: "https://codewithdami.vercel.app", // Allow requests from this origin
     methods: ["GET", "POST"], // Allowed HTTP methods
   })
 ); // Middleware for enabling Cross-Origin Resource Sharing (CORS)
